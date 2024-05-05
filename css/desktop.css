@@ -1,0 +1,102 @@
+@media screen and (min-width: 1158px) {
+    .container {
+        min-width: 1158px;
+        max-width: 4000px;
+        margin: 0 auto;
+        padding: 0px 15px;
+        width: 90%;
+    }
+
+    .main-section {
+        text-align: center;
+        padding: 188px 0;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url('../images/hero/hero-bg_desk@1x.jpg');
+    }
+
+    @media (min-resolution: 192dpi) {
+        .main-section {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)), url('../images/hero/hero-bg_desk@2x.jpg');
+        }
+    }
+
+    .contacts ul {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        flex-direction: row;
+        flex-shrink: 0;
+    }
+
+    .contacts ul li {
+        display: inline-block;
+        margin-right: 40px;
+    }
+
+    .customers-wrapper {
+        flex-wrap: nowrap;
+    }
+
+    .container .footer-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .team-list .team-member {
+        margin-right: 24px;
+        width: calc((100%) / 4);
+    }
+
+    .what-we-do {
+        display: flex;
+    }
+
+    .what-we-do-list {
+        display: flex;
+    }
+
+    .features-list {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .features {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .feature {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .feature-icon {
+        height: 112px;
+        width: 264px;
+        background-color: #F4F4FD;
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .team-list {
+        flex-wrap: nowrap;
+    }
+}
