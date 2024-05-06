@@ -1025,7 +1025,6 @@ input[type='checkbox']:checked+.review-form-agreement-desc>.review-form-checkbox
     height: 40px;
     width: 100%;
     color: var(--cloud);
-    margin-right: 24px;
 }
 
 .footer-email input {
@@ -1126,7 +1125,8 @@ input[type='checkbox']:checked+.review-form-agreement-desc>.review-form-checkbox
 }
 
 header .container nav {
-    min-height: 80px;
+    padding: 23px 0;
+    /* (70 - 24) /2 */
     display: flex;
     align-items: center;
     width: 100%;

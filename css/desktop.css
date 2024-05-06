@@ -1,10 +1,32 @@
 @media screen and (min-width: 1158px) {
     .container {
         min-width: 1158px;
-        max-width: 4000px;
         margin: 0 auto;
         padding: 0px 15px;
         width: 90%;
+    }
+
+    header .container nav {
+        margin: 0 auto;
+        min-height: auto;
+        width: auto;
+        padding: 0;
+    }
+
+    header .logo {
+        margin-right: 76px;
+    }
+
+    .menu {
+        margin: 0;
+    }
+
+    address {
+        justify-content: right;
+    }
+
+    address ul li a {
+        margin: 0;
     }
 
     .main-section {
@@ -25,15 +47,12 @@
 
     .contacts ul {
         display: flex;
-        align-items: center;
-        justify-content: right;
-        flex-direction: row;
         flex-shrink: 0;
+        gap: 40px;
     }
 
     .contacts ul li {
         display: inline-block;
-        margin-right: 40px;
     }
 
     .customers-wrapper {
@@ -44,10 +63,10 @@
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
+        gap: 0;
     }
 
     .team-list .team-member {
-        margin-right: 24px;
         width: calc((100%) / 4);
     }
 
@@ -57,11 +76,11 @@
 
     .what-we-do-list {
         display: flex;
+        gap: 24px;
     }
 
     .features-list {
-        padding-top: 120px;
-        padding-bottom: 120px;
+        padding: 120px 0;
     }
 
     .features {
@@ -82,6 +101,12 @@
         flex-wrap: nowrap;
     }
 
+    .feature h3 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
     .feature-icon {
         height: 112px;
         width: 264px;
@@ -92,11 +117,20 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-bottom: 22px;
+        margin-bottom: 8px;
         border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .feature li {
+        gap: 0;
     }
 
     .team-list {
         flex-wrap: nowrap;
+    }
+
+    .social-footer {
+        margin-left: 120px;
+        margin-right: 80px;
     }
 }
